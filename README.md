@@ -1,4 +1,4 @@
-# Project Name
+# Mint.com signup page clone
 
 > One paragraph statement about the project.
 

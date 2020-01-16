@@ -30,6 +30,73 @@ header button{
 }
 .center-content{
     margin: auto;
-    width: 50%;
+    width: 30%;
     display: block;
+    text-align: center;
+}
+
+.center-content > img{
+    width: 30%;
+}
+
+.center-content > ul{
+    display: grid;
+    grid: 1fr / repeat(3, 27%);
+    margin-left: 8%;
+    list-style-type: none;
+
+}
+
+.center-content > ul > li span {
+   margin-top: -20px;
+}
+
+.center-content > ul img{
+    width: 20%;
+}
+
+.form-box{
+    background-color: white;
+    border: 1px solid #eceef1;
+    padding: 0 20px;
+    color: #4c4c4c;
+    display: grid;
+    grid: repeat(2, min-content) auto repeat(2, min-content) / auto;
+}
+
+.form-box > p > a{
+    text-decoration: none;
+}
+
+.form-box > form{
+    text-align: left;
+    display: grid;
+    grid: repeat(4, min-content) / auto;
+}
+
+.form-box > form > fieldset{
+    border: none;
+    display: grid;
+    grid: 56px 1fr / 1fr;
+}
+.form-box > form > fieldset > label{
+    padding: 10px 0;
+}
+
+.form-box > form > fieldset > input{
+    width: 100%;
+    height: 28px;
+    font-size: 17px;
+}
+
+.form-box > form > fieldset > button{
+    width: 100%;
+    padding: 12px 10%;
+    background-color: #0077c5;
+    color: white;
+    border: 1px solid #0077c5;
+    box-shadow: none;
+    border-radius: 2px;
+    height: 50px;
+    font-size: 17px;
 }

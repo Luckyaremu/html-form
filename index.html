@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+        <title>Mint Clone Register Form</title>
+
+        <link rel="shortcut icon" href="/images/favicons/apple-touch-icon-57x57.png" type="image/x-icon" >
+
+        <!-- Font awesone icons -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <link href="assets/style/style.css" rel="stylesheet">
+
+        <!-- Quicksand Google font-->
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+    </head>
+    
+    <body>
+
+        <!-- Header bar -->
+        <header>
+            <p>Already have an Intuit account? <br> <a href="#">I forgot my User ID or Password</a></p>
+            <button>
+                <i class="fas fa-lock"></i>
+                Sign In
+            </button>
+        </header>
+        <!-- End header bar -->
+
+        <!-- Main page -->
+        <main>
+
+            <!-- Centered content -->
+            <div class="center-content">
+
+                <!-- List of logos-->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Intuit_Logo.svg/1200px-Intuit_Logo.svg.png" alt="Intuit logo">
+                <ul>
+                    <li>
+                        <img src="https://www.fintechfutures.com/files/2018/08/Mint-1.jpg" alt="Mint logo">
+                        <span>mint</span>
+                    </li>
+                    <li>
+                        <img src="https://apechecks.com/wp-content/uploads/2018/04/qb_thumb-300x300.png" alt="Quibooks logo">
+                        <span>Quickbooks</span>
+                    </li>
+                    <li>
+                        <img src="https://roaringapps.s3.amazonaws.com/assets/icons/1373932708191-turbotax.png" alt="Turbotax logo">
+                        <span>Turbotax</span>
+                    </li>
+                </ul>
+
+                <!-- Form Box-->
+                <div class="form-box">
+
+                    <h2> Create an Intuit account </h2>
+                    <p>One account for every intuit including mint<br> <a href="#">learn more</a></p>
+
+                    <form method="POST" target="#">
+                        <fieldset>
+                            <label for="email" >Email address</label>
+                            <input type="email" id="email" name="email" pattern="\w*@\w*.\w*">
+                        </fieldset>
+
+                        <fieldset>
+                            <label for="phone" >Phone (Recommended)</label>
+                            <input type="tel" id="phone" name="phone" required>
+                            <span>Standard call, messaging or data rates may apply.</span>
+                        </fieldset>
+
+                        <fieldset>
+                            <label for="password" >Password</label>
+                            <input type="password" id="password" name="password" pattern="[a-zA-Z](\d+)(\W+)" maxlength="32" required>
+                            <i class="fas fa-lock-open"></i>
+                        </fieldset>
+
+                        <fieldset >
+                            <label for="confirm-password" >Cofirm Password</label>
+                            <input type="password" id="confirm-password" name="confirm-password" pattern="[a-zA-Z](\d+)(\W+)" maxlength="32" required>
+                        </fieldset>
+
+                        <fieldset>
+                            <button name="submit">
+                                <i class="fas fa-lock"></i>
+                                Create Account
+                            </button>
+                        </fieldset>
+
+                    </form>
+                    <p class="terms-text">
+                        By clicking Create account, you agree to our
+                        <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.
+                    </p>
+
+                    <div class="box-footer">
+                        <p>
+                            Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.
+                        </p>
+                    </div>
+
+                </div>
+                <!-- End Form Box -->
+
+            </div>
+            <!-- End Centered Content -->
+
+        </main>
+        <!-- End Main page -->
+
+        <!-- Footer begin-->
+        <footer>
+            <nav>
+                <a href="#">Legal</a>
+                <a href="#">Privacy</a>
+                <a href="#">Security</a>
+            </nav>
+
+            <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. <br>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+        </footer>
+        <!-- Footer ends-->
+        <button class="sticky-button">Privacy Settings</button>
+
+    <!-- Script for font awsome icons to appear in all browsers -->
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script> 
+
+    </body>
+
+</html>

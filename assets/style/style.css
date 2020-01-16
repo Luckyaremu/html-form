@@ -1,0 +1,35 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+    background-color: #eceef1;
+}
+header{
+    display: grid;
+    grid: 1fr / 1fr 100px;
+    background-color: none;
+    padding: 2px 20px;
+    align-items: center;
+}
+header p{
+    text-align: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+header button{
+    padding: 10px;
+    background-color: #0077c5;
+    color: white;
+    border: 1px solid black;
+    box-shadow: none;
+    border-radius: 5px;
+    height: 40px;
+}
+.center-content{
+    margin: auto;
+    width: 50%;
+    display: block;
+}
